@@ -1,0 +1,99 @@
+<!---css basics----
+General Technique:write css style property
+create element with html
+style with css one by one also learn
+
+hover,active sedue class
+shadows
+trasition
+css box model and chorome develop-->
+
+<style>
+  .subscribe_button{
+    background-color: rgb(224, 2, 2);
+    color: white;
+    border: none;
+    height: 30px;
+    width: 104px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 7px;
+    transition: opacity 1s;
+    vertical-align: top;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+  }
+  .subscribe_button:hover{
+    opacity: 0.8;
+
+  }
+  .subscribe_button:active{
+    opacity: 0.5;
+
+  }
+
+ .join_button{
+   background-color: white;
+   border-style: solid;
+   color: rgb(37, 37, 240);
+   border-color: rgb(6, 95, 212);
+ 
+   border-radius: 2px;
+   cursor: pointer;
+   margin-right: 7px;
+   transition: backgroud_color 1s,color 1s;
+   padding-left: 10px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   padding-right: 10px;
+   vertical-align: top;
+ } 
+ .join_button:hover{
+   background-color: blue;
+  opacity: 0.8;
+  color: white;
+ }
+ .join_button:active{
+   opacity: 0.5;
+ }
+.tweet_button{
+  background-color: rgb(35, 95, 223);
+  color: white;
+  border: none;
+  border-radius: 16px;
+  height: 30px;
+  width: 70px;
+  cursor: pointer;
+  text-shadow: 2px;
+  transition: opacity 1s;
+  vertical-align: top;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  
+ 
+  
+} 
+.tweet_button:hover{
+  opacity: 0.8;
+}
+.tweet_button:active{
+  opacity: 0.5;
+}
+.tweet_button:hover{
+  box-shadow: 5px 5px 10px rgb(58, 58, 199);
+}
+</style>
+
+<button class="subscribe_button">
+  SUBSCRIBE
+</button>
+<button class="join_button">
+  JOIN
+</button>
+<button class="tweet_button">
+  Tweet
+</button>
